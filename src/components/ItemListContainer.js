@@ -15,7 +15,7 @@ const ItemListContainer = (props) => {
                 fontSize: "2.2rem",
                 textAlign: "center",
                 paddingTop: "50px"
-            }}>{props.msg}</p>
+            }}>{props.greeting}</p>
         </div>
 
     )
