@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import MenuNavegacion from "./components/MenuNavegacion";
 import ItemListContainer from "./components/ItemListContainer";
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <MenuNavegacion />
       <ItemListContainer greeting="Bienvenido a nuestro sitio, pronto encontrara mas detalles de nuestros productos!!" />
     </>
   )

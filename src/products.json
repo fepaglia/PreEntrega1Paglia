@@ -1,8 +1,8 @@
 [
     {
-        "id":"",
+        "id":"", // nombreinstrumento numero el-gui-01
         "title":"",
-        "description":"",
+        "description":"",  // usado o nuevo
         "price":"",
         "pictureUrl": ""
     }
