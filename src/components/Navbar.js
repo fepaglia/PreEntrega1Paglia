@@ -7,9 +7,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const MenuNavegacion = () => {
     return (
-        <Navbar bg="success" expand="xl">
+        <Navbar bg="light" expand="xl">
             <Container>
-                <Navbar.Brand href="#home">Ecommerce</Navbar.Brand>
+                <Navbar.Brand href="#home"><img src="https://www.samash.com/media/logo/stores/1/sa-logo-web.jpg"
+                 width="130"
+                 className="d-inline-block align-top"
+                
+                alt=""></img></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
