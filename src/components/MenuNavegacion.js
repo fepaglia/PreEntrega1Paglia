@@ -4,12 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../src/assets/logoBV.jpg';
-
+import "./MenuNavegacion.css";
 
 
 const MenuNavegacion = () => {
     return (
-        <Navbar bg="light" expand="xl">
+        <Navbar expand="xl">
             <Container>
                 <Navbar.Brand href="#home"><img src={logo} width="80" className="d-inline-block align-top" alt=""></img></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

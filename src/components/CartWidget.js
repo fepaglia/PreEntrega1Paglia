@@ -1,8 +1,11 @@
+
 import { MdShoppingCart } from 'react-icons/md';
+
+import "./CartWidget.css"
 
 const CartWidget = () =>{
     return (
-        <span>Carrito: <MdShoppingCart /></span>
+        <button>Carrito: <MdShoppingCart /></button>
     )
 };
 
