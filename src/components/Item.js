@@ -1,20 +1,19 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { propTypes } from 'react-bootstrap/esm/Image';
+
 import "./Item.css";
 
-function Item() {
+
+function Item({ title, price, pictureUrl }) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.propTypes} />
+      <Card.Img variant="top" src={pictureUrl} />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text>
-          <span>{props.price} u$s</span>
-          <p>{props.description}</p>
-          <i>{props.id}</i>
+          <span>{price} u$s</span> 
         </Card.Text>
-        <Button variant="primary">Agregar al Carrito</Button>
+        <Button variant="primary">Ver detalles</Button>
       </Card.Body>
     </Card>
   );
